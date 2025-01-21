@@ -1,27 +1,57 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# Site settings
+title: My GitHub Website
+description: "Personal website hosted on GitHub Pages."
+url: https://yourusername.github.io
+baseurl: "" # Leave blank unless using a subfolder
+
+# Author information
+author:
+  name: Jane Doe
+  email: jane.doe@example.com
+  bio: "Amateur artist inspired by nature, animals, and internet culture."
+
+# Theme settings
 theme: jekyll-theme-minimal
-title: Anastasiia Beskina's homepage
-description: Hi, my name is Anastasiia and here I write about my academic work.
+
+# Navigation menu
+header_pages:
+  - index.md
+  - about.md
+  - portfolio.md
+  - blog.md
+
+# Custom Links in Footer or Sidebar
 links:
+  - name: Home
+    url: /
+  - name: About
+    url: /about/
+  - name: Portfolio
+    url: /portfolio/
+  - name: Blog
+    url: /blog/
+  - name: Contact
+    url: /contact/
   - name: ORCID
-    url: https://orcid.org/0000-0002-3165-6788
-  - name: Scopus
-    url: https://www.scopus.com/authid/detail.uri?authorId=58861088900
-  - name: Google Scholar
-    url: https://scholar.google.com/citations?hl=uk&user=GwBTM6YAAAAJ
-  - name: ResearchGate
-    url: https://www.researchgate.net/profile/Anastasiia-Breskina
+    url: https://orcid.org/0000-0001-2345-6789 # Add your ORCID link here
+
+# Social links (renders icons if supported by the theme)
 social_links:
   twitter: https://twitter.com/janedoe
   github: https://github.com/yourusername
   instagram: https://instagram.com/jane.doe
-  orcid: https://orcid.org/0000-0001-2345-6789
+  orcid: https://orcid.org/0000-0001-2345-6789 # ORCID link
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
