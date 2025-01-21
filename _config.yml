@@ -1,7 +1,7 @@
 # Site settings
 title: My GitHub Website
 description: "Personal website hosted on GitHub Pages."
-url: https://yourusername.github.io
+url: https://anastasiia-breskina.github.io
 baseurl: "" # Leave blank unless using a subfolder
 
 # Author information
@@ -13,25 +13,8 @@ author:
 # Theme settings
 theme: jekyll-theme-minimal
 
-# Navigation menu
-header_pages:
-  - index.md
-  - about.md
-  - portfolio.md
-  - blog.md
-
 # Custom Links in Footer or Sidebar
 links:
-  - name: Home
-    url: /
-  - name: About
-    url: /about/
-  - name: Portfolio
-    url: /portfolio/
-  - name: Blog
-    url: /blog/
-  - name: Contact
-    url: /contact/
   - name: ORCID
     url: https://orcid.org/0000-0001-2345-6789 # Add your ORCID link here
 
