@@ -8,6 +8,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-theme: jekyll-theme-cayman
-title: Anastasiia's homepage
+theme: jekyll-theme-minimal
+title: Anastasiia Beskina's homepage
 description: Hi, my name is Anastasiia and here I write about my academic work.
