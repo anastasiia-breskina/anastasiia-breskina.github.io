@@ -13,9 +13,7 @@ theme: jekyll-theme-minimal
 title: Anastasiia Beskina's homepage
 description: Hi, my name is Anastasiia and here I write about my academic work.
 
-social_links:
-  - name: Twitter
-    url: https://twitter.com/janedoe
+links:
   - name: ORCID
     url: https://orcid.org/0000-0002-3165-6788
   - name: Scopus
