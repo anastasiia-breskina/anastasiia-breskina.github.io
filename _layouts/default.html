@@ -4,7 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
-  {{ content_for :head }}
+  <style>
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+  }
+  .content {
+    width: 80%;
+    padding: 1rem;
+  }
+  .sidebar-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar-links li {
+    margin: 0.5rem 0;
+  }
+  .sidebar-links a {
+    text-decoration: none;
+    color: #007acc;
+  }
+  .sidebar-links a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 </head>
 <body>
   <div class="container">
