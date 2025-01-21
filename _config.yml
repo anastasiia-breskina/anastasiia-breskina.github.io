@@ -1,29 +1,23 @@
 # Site settings
 title: My GitHub Website
-description: "Personal website hosted on GitHub Pages."
-url: https://anastasiia-breskina.github.io
+description: "Personal website with a custom sidebar."
+url: https://yourusername.github.io
 baseurl: "" # Leave blank unless using a subfolder
 
 # Author information
 author:
   name: Jane Doe
   email: jane.doe@example.com
-  bio: "Amateur artist inspired by nature, animals, and internet culture."
+
+# Sidebar Links
+sidebar_links:
+  - name: ORCID
+    url: https://orcid.org/0000-0001-2345-6789
+  - name: Twitter
+    url: https://twitter.com/janedoe
 
 # Theme settings
 theme: jekyll-theme-minimal
-
-# Custom Links in Footer or Sidebar
-links:
-  - name: ORCID
-    url: https://orcid.org/0000-0001-2345-6789 # Add your ORCID link here
-
-# Social links (renders icons if supported by the theme)
-social_links:
-  twitter: https://twitter.com/janedoe
-  github: https://github.com/yourusername
-  instagram: https://instagram.com/jane.doe
-  orcid: https://orcid.org/0000-0001-2345-6789 # ORCID link
 
 # Plugins
 plugins:
