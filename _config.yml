@@ -1,34 +1,17 @@
-# Site settings
-title: My GitHub Website
-description: "Personal website with a clean sidebar."
-url: https://yourusername.github.io
-baseurl: "" # Leave blank unless using a subfolder
-
-# Author information
-author:
-  name: Jane Doe
-  email: jane.doe@example.com
-
-# Sidebar Links
-sidebar_links:
-  - name: ORCID
-    url: https://orcid.org/0000-0001-2345-6789
-  - name: Twitter
-    url: https://twitter.com/janedoe
-
-# Theme settings
-theme: jekyll-theme-minimal
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Build settings
-markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - node_modules
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+theme: jekyll-theme-merlot
+title: Anastasiia's homepage
+description: Hi, my name is Anastasiia and here I write about my academic work.
+[ORCID](https://orcid.org/0000-0002-3165-6788)
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=58861088900)
+[Google Scholar](https://scholar.google.com/citations?hl=uk&user=GwBTM6YAAAAJ)
+[ResearchGate](https://www.researchgate.net/profile/Anastasiia-Breskina)
