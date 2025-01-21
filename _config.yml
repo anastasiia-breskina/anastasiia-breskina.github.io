@@ -8,6 +8,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-cayman
 title: Anastasiia's homepage
 description: Hi, my name is Anastasiia and here I write about my academic work.
