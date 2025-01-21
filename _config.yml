@@ -1,6 +1,6 @@
 # Site settings
 title: My GitHub Website
-description: "Personal website with a custom sidebar."
+description: "Personal website with a clean sidebar."
 url: https://yourusername.github.io
 baseurl: "" # Leave blank unless using a subfolder
 
