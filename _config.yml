@@ -9,10 +9,8 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: jekyll-theme-minimal
-
 title: Anastasiia Beskina's homepage
 description: Hi, my name is Anastasiia and here I write about my academic work.
-
 links:
   - name: ORCID
     url: https://orcid.org/0000-0002-3165-6788
@@ -22,3 +20,8 @@ links:
     url: https://scholar.google.com/citations?hl=uk&user=GwBTM6YAAAAJ
   - name: ResearchGate
     url: https://www.researchgate.net/profile/Anastasiia-Breskina
+social_links:
+  twitter: https://twitter.com/janedoe
+  github: https://github.com/yourusername
+  instagram: https://instagram.com/jane.doe
+  orcid: https://orcid.org/0000-0001-2345-6789
