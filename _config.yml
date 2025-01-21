@@ -14,11 +14,11 @@ title: Anastasiia Beskina's homepage
 description: Hi, my name is Anastasiia and here I write about my academic work.
 
 social:
-  - platform: ORCID
+  - name: ORCID
     url: https://orcid.org/0000-0002-3165-6788
-  - platform: Scopus
+  - name: Scopus
     url: https://www.scopus.com/authid/detail.uri?authorId=58861088900
-  - platform: Google Scholar
+  - name: Google Scholar
     url: https://scholar.google.com/citations?hl=uk&user=GwBTM6YAAAAJ
-  - platform: ResearchGate
+  - name: ResearchGate
     url: https://www.researchgate.net/profile/Anastasiia-Breskina
