@@ -17,3 +17,8 @@ automated online proctoring systems](https://link.springer.com/chapter/10.1007/9
 - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58861088900)
 - [Google Scholar](https://scholar.google.com/citations?hl=uk&user=GwBTM6YAAAAJ)
 - [ResearchGate](https://www.researchgate.net/profile/Anastasiia-Breskina)
+
+# Interesting and useful resources
+- [Hugging Face](https://huggingface.co/)
+- [Papers With Code](https://paperswithcode.com/)
+- [Exposing.ai](https://exposing.ai/)
