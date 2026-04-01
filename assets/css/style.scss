@@ -1,0 +1,214 @@
+---
+---
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 40px 60px;
+}
+
+/* ============================================================
+   Name (h1)
+   ============================================================ */
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0 6px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+/* ============================================================
+   Section headings (h2) and subsection headings (h3)
+   ============================================================ */
+
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin: 28px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #cccccc;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  margin: 16px 0 4px;
+}
+
+/* ============================================================
+   Header block: title, research interests, links
+   (the three paragraphs immediately after h1)
+   ============================================================ */
+
+/* Institution / title line */
+h1 + p {
+  font-size: 13px;
+  color: #444444;
+  margin: 0 0 4px;
+}
+
+h1 + p strong {
+  font-weight: bold;
+  color: #444444;
+}
+
+/* Research interests */
+h1 + p + p {
+  font-size: 13px;
+  color: #555555;
+  margin: 0 0 6px;
+}
+
+/* Profile links row */
+h1 + p + p + p {
+  font-size: 12px;
+  color: #777777;
+  margin: 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* ============================================================
+   Paragraphs and inline text
+   ============================================================ */
+
+p {
+  margin: 4px 0 10px;
+}
+
+strong {
+  font-weight: bold;
+  color: #222222;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ============================================================
+   Links
+   ============================================================ */
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1520a6;
+}
+
+/* ============================================================
+   Horizontal rules
+   ============================================================ */
+
+hr {
+  border: none;
+  border-top: 1px solid #eeeeee;
+  margin: 18px 0;
+}
+
+/* ============================================================
+   Lists  (publications, positions, etc.)
+   ============================================================ */
+
+ul {
+  list-style: none;
+  margin: 4px 0;
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  padding: 5px 0 5px 14px;
+  font-size: 13px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 2px;
+}
+
+ul li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* ============================================================
+   Inline code  →  index tag (Scopus, Springer, etc.)
+   ============================================================ */
+
+code {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  background: #f0f0f0;
+  color: #555555;
+  padding: 1px 5px;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  white-space: nowrap;
+  letter-spacing: 0.2px;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+
+.site-footer {
+  margin-top: 40px;
+  padding-top: 12px;
+  border-top: 1px solid #eeeeee;
+  font-size: 11px;
+  color: #aaaaaa;
+  text-align: left;
+}
+
+/* ============================================================
+   Responsive  (≤ 600px)
+   ============================================================ */
+
+@media (max-width: 600px) {
+  .page-wrapper {
+    padding: 20px 16px 40px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
