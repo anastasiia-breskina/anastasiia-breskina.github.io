@@ -4,7 +4,7 @@
 
 **Research Interests:** Temporally-Aware Behavioural Monitoring, Multimodal Video Analysis, Action Unit Recognition,  Responsible AI, Dataset Construction, Online Assessment Integrity
 
-[Google Scholar](https://scholar.google.com/citations?user=GwBTM6YAAAAJ) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58861088900) | [ORCID](https://orcid.org/0000-0002-3165-6788) | [GitHub](https://github.com/asya-brs) | [LinkedIn](https://www.linkedin.com/in/anastasiia-breskina) | [Email](mailto:anastasiia.breskina@tecnico.ulisboa.pt)
+[Google Scholar](https://scholar.google.com/citations?user=GwBTM6YAAAAJ) / [Scopus](https://www.scopus.com/authid/detail.uri?authorId=58861088900) / [ORCID](https://orcid.org/0000-0002-3165-6788) / [GitHub](https://github.com/asya-brs) / [LinkedIn](https://www.linkedin.com/in/anastasiia-breskina) / [Email](mailto:anastasiia.breskina@tecnico.ulisboa.pt)
 
 ---
 
@@ -25,7 +25,7 @@ Computer vision and machine learning researcher with active work in video-based 
 
 - Antoshchuk S., Breskina A. **Evaluation metrics systematization for 2D human poses analysis models** // *Herald of Advanced Information Technology.* – 2023. – Vol. 6, no. 1. – P. 26–38. [DOI: 10.15276/hait.06.2023.2](https://doi.org/10.15276/hait.06.2023.2) `Scopus`
 
-- Antoshchuk S., Breskina A. **Human action analysis models in artificial intelligence based proctoring systems and dataset for them** // *Applied Aspects of Information Technology.* – 2023. – Vol. 6, no. 2. – P. 190–200. [DOI: 10.15276/aait.06.2023.14](https://doi.org/10.15276/aait.06.2023.14) `Scopus`
+- Antoshchuk S., Breskina A. **Human action analysis models in artificial intelligence based proctoring systems and dataset for them** // *Applied Aspects of Information Technology.* – 2023. – Vol. 6, no. 2. – P. 190–200. [DOI: 10.15276/aait.06.2023.14](https://doi.org/10.15276/aait.06.2023.14)
 
 ### Book Chapter
 
@@ -53,7 +53,7 @@ Computer vision and machine learning researcher with active work in video-based 
 - Research: Privacy-aware multimodal framework for temporally-grounded behavioural analysis
 
 ### Doctoral Researcher *(attended)*
-**Odesa National Polytechnic University** | Odesa, Ukraine | *2016 – 2025*
+**Odesa National Polytechnic University** | Odesa, Ukraine | *2016 – 2023*
 - Specialisation: Computer Science – Machine Learning, Computer Vision, AI
 - Doctoral coursework completed 2023; research continued through October 2025
 - Degree not conferred
@@ -78,7 +78,7 @@ Computer vision and machine learning researcher with active work in video-based 
 - Regulated high-stakes environments as target deployment context
 
 ### Doctoral Researcher
-**Odesa National Polytechnic University** | *2016 – 2025*
+**Odesa National Polytechnic University** | *2023 – 2025*
 - Systematic analysis of 33 commercial AI proctoring systems across three deployment categories
 - Empirical evaluation of 3 deployed platforms – 25–30% true-positive detection rate documented (24 trials, 2024)
 - Behavioural video dataset design and annotation pipeline construction
