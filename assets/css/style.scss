@@ -1,0 +1,240 @@
+---
+---
+
+/* ============================================================
+   Solarized Light – Scientific CV Theme
+   ============================================================ */
+
+:root {
+  --bg:      #fdf6e3;   /* warm cream – main background        */
+  --bg2:     #eee8d5;   /* secondary background, code bg       */
+  --border:  #d3cbb8;   /* soft divider lines                  */
+  --muted:   #93a1a1;   /* deemphasised, pipe separators       */
+  --text:    #657b83;   /* body text                           */
+  --strong:  #586e75;   /* bold text, h3                       */
+  --heading: #073642;   /* h1 name – darkest solarized         */
+  --yellow:  #b58900;   /* accent: top stripe, bullets, h2 border */
+  --blue:    #268bd2;   /* links                               */
+  --cyan:    #2aa198;   /* tag badges (Scopus, Springer, etc.) */
+}
+
+/* ---- Reset ---- */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---- Base ---- */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.75;
+  border-top: 4px solid var(--yellow);
+}
+
+/* ---- Layout ---- */
+
+.page-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 2.5rem 5rem;
+}
+
+/* ============================================================
+   Headings
+   ============================================================ */
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: var(--heading);
+  margin: 0 0 0.5rem;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--strong);
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 2.8rem 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--yellow);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--strong);
+  margin: 1.6rem 0 0.35rem;
+}
+
+/* ============================================================
+   Header block  (h1, then the 3 paragraphs before first <hr>)
+   ============================================================ */
+
+/* Title / institution – italic subtitle */
+h1 + p {
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--strong);
+  margin: 0 0 0.25rem;
+}
+
+h1 + p strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Research interests */
+h1 + p + p {
+  font-size: 0.92rem;
+  color: var(--text);
+  margin: 0 0 0.45rem;
+}
+
+/* Profile links row */
+h1 + p + p + p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.84rem;
+  color: var(--muted);   /* pipe separators */
+  margin: 0;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ============================================================
+   Paragraphs & inline text
+   ============================================================ */
+
+p {
+  margin: 0.3rem 0 0.85rem;
+}
+
+strong {
+  color: var(--strong);
+  font-weight: 600;
+}
+
+em {
+  color: var(--text);
+  font-style: italic;
+}
+
+/* ============================================================
+   Links
+   ============================================================ */
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.12s ease;
+}
+
+a:hover {
+  color: var(--cyan);
+  text-decoration: underline;
+}
+
+/* ============================================================
+   Horizontal rules
+   ============================================================ */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--bg2);
+  margin: 2rem 0;
+}
+
+/* ============================================================
+   Lists  (publications, education items, etc.)
+   ============================================================ */
+
+ul {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  padding: 0.5rem 0 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  border-bottom: 1px solid var(--bg2);
+}
+
+ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+ul li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  color: var(--yellow);
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* ============================================================
+   Inline code  →  tag / badge  (Scopus, Springer, etc.)
+   ============================================================ */
+
+code {
+  font-family: "SF Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.73rem;
+  font-weight: 700;
+  background: var(--bg2);
+  color: var(--cyan);
+  padding: 0.12em 0.5em;
+  border-radius: 2px;
+  border: 1px solid var(--muted);
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--bg2);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* ============================================================
+   Responsive  (≤ 600px)
+   ============================================================ */
+
+@media (max-width: 600px) {
+  .page-wrapper {
+    padding: 2rem 1.2rem 3rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+  }
+}
